@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    
+    <form id="loginform" style="display: block;">
+        <h2>login form</h2>
+        <input type="email" id="loginemail" placeholder="Enter Your Email"><br>
+        <input type ="password" id ="loginpassword" ><br>
+        <input type="submit">
+    </form>
+
+    
+
+    <form id="registerform" style="display: none;"><h1>registerForm</h1>
+        <input type="email" id="email" placeholder="Enter Your Email"><br>
+        <input type ="password" id ="password" ><br>
+        <input type="submit">
+    </form>
+    <a href="#" id="registersection">Register Now</a>
+    <div id="test" hidden>
+        <a href="#" id="logout">Logout</a>
+    </div>
+    
+    <script type="module" src="./auth.js"></script>
+</body>
+</html>
